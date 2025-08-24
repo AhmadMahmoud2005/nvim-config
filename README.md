@@ -6,6 +6,7 @@ It is designed for **competitive programming**, **C++/Lua/JavaScript development
 ---
 
 ## 📂 Project Structure
+```
 .
 ├── init.lua # Main entry point, loads Lazy.nvim and configuration
 ├── lazy-lock.json # Plugin lockfile (versions pinned by lazy.nvim)
@@ -16,6 +17,7 @@ It is designed for **competitive programming**, **C++/Lua/JavaScript development
 │ └── snippets/ # Custom code snippets
 │ └── all.lua # Global snippets
 └── README.md # This file
+```
 
 ---
 
