@@ -44,6 +44,17 @@ return {
          vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
          vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
          vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, {})
+         -- Show diagnostics in a floating window
+         vim.keymap.set("n", "<leader>e", vim.diagnostic.open_float, {})
+
+         -- Go to next diagnostic
+         vim.keymap.set("n", "[d", vim.diagnostic.goto_prev, {})
+
+         -- Go to previous diagnostic
+         vim.keymap.set("n", "]d", vim.diagnostic.goto_next, {})
+
+         -- Show all diagnostics in quickfix list
+         vim.keymap.set("n", "<leader>q", vim.diagnostic.setloclist, {})
       end,
    },
 }

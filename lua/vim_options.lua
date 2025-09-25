@@ -14,6 +14,7 @@ vim.opt.cmdheight = 1
 vim.opt.showcmd = true
 vim.opt.showmode = true
 vim.opt.shortmess = vim.opt.shortmess - { "C", "I" }
+vim.opt.clipboard = "unnamedplus"
 
 vim.opt.number = true -- enable absolute line numbers
 vim.opt.relativenumber = true -- enable relative line numbers
